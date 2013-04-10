@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>randombox default</title>
-<link rel="stylesheet" href="assets/reset.css">
-<link rel="stylesheet" href="assets/default.css">
+<link rel="stylesheet" href="../assets/reset.css">
+<link rel="stylesheet" href="../assets/default.css">
 <style type="text/css">
 body{font-family: Microsoft Yahei;}
 .container{width:400px;margin: 100px auto;}
@@ -48,25 +48,25 @@ body{font-family: Microsoft Yahei;}
 <input type="button" value="在摇一次" id="again"> 
 </div>
 <script src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy.js"></script>
-<script>
-    KISSY.config({
+<script type="text/javascript">
+(function(S){
+	var $ = S.all,
+		E = S.Event;
+		
+
+	S.config({
         packages:[
             {
                 name:"gallery",
-                tag:"20111220",
-                path:"../../../",  // cdn上适当修改对应路径
+                tag:"20130410",
+                path:"../../../../",  // cdn上适当修改对应路径
                 charset:"utf-8"
             }
         ]
     });
-</script>
-<script type="text/javascript">
-(function(S){
-	var $ = S.all,
-		E = S.Event,
-		box;
+
 	S.use("gallery/randombox/1.0/index",function(S,RandomBox){
-			box = new RandomBox({
+		var	box = new RandomBox({
 			//配置id数组   "#"号勿忘
 			list:["#b1","#b2","#b3","#b4","#b5",	
 			      "#b10","#b15","#b20","#b25","#b24",
