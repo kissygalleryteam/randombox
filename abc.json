@@ -1,0 +1,14 @@
+{
+    "name": "randombox",
+    "version": "1.0",
+    "desc": "随机摇奖器组件",
+    "cover": "",
+    "tag":"",
+    "author": {
+        "name": "伯才",
+        "email": "382850581@qq.com",
+        "page": ""
+    },
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}
