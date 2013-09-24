@@ -186,4 +186,4 @@ gallery/randombox/1.0/index
 		//将RandomBox绑定S 
 		S.RandomBox = RandomBox;
 		return RandomBox;
-	});
+	},{requires:['node','ajax']});

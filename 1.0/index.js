@@ -180,4 +180,4 @@
 		//将RandomBox绑定S 
 		S.RandomBox = RandomBox;
 		return RandomBox;
-	});
+	},{requires:['node','ajax']});
